@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="UTF-8">
+        <meta charset="UTF-8" name="viewport" content="device-width, initial-scale=1.0">
         <title>sigma squad</title>
         <style>
             .bg {
@@ -47,7 +47,6 @@
                 text-decoration: none;
             }
             .who {
-                color: black;
                 font-weight: lighter;
                 font-size: 13px;
                 font-family: 'Times New Roman', Times, serif;
@@ -73,6 +72,55 @@
                 top: 125px;
                 left: 25px;
                 border-radius: 20px;
+            }
+            
+            @media screen and (max-width: 600px ) {
+                .menu {
+                    color: black;
+                    font-weight: bold;
+                    font-size: 20px;
+                    margin-top: 5px;
+                    margin-left: 10px;
+                    position: absolute;
+                    top: 0px;
+                    right: 0%;
+                }
+                .bar {
+                    width: 120%;
+                    height: 36px;
+                    margin-top: 0px;
+                    margin-left: -10px;
+                    margin-right: -10px;
+                    position: absolute;
+                    top: 35px;
+                }
+                .who {
+                    font-weight: lighter;
+                    font-size: 13px;
+                    font-family: 'Times New Roman', Times, serif;
+                    margin-right: 10px;
+                    position: absolute;
+                    top: 0px;
+                    right: 3%;
+                }
+                .sigmalogo {
+                    width: auto;
+                    height: 36px;
+                    margin-top: 1px;
+                    margin-left: 0px;
+                    position: absolute;
+                    top: 75px;
+                    left: 100px;
+                    mix-blend-mode: multiply;
+                }
+                .grp1 {
+                    width: auto;
+                    height: 500px;
+                    position: absolute;
+                    top: 125px;
+                    left: 100px;
+                    border-radius: 20px;
+                }   
             }
         </style>
     </head>
